@@ -1,0 +1,16 @@
+{
+    "eye_infos": {
+        "left_eye_info": {
+            "Right X negative angle": 0.1,
+            "Right X positive angle": -0.1,
+            "Right Y negative angle": 0.1,
+            "Right Y positive angle": -0.1
+        },
+        "right_eye_info": {
+            "Left X negative angle": 0.1,
+            "Left X positive angle": -0.1,
+            "Left Y negative angle": 0.1,
+            "Left Y positive angle": -0.1
+        }
+    }
+}
