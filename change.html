@@ -336,27 +336,35 @@
 					switch(eye_selected){
 						case 0:
 							Left_X_negative_angle = Right_X_negative_angle;
+							eye_selected = 1;
 							break;
 						case 1:
 							Right_X_negative_angle = Left_X_negative_angle;
+							eye_selected = 0;
 							break;
 						case 2:
 							Left_X_positive_angle = Right_X_positive_angle;
+							eye_selected = 3;
 							break;
 						case 3:
 							Right_X_positive_angle = Left_X_positive_angle;
+							eye_selected = 2;
 							break;
 						case 4:
 							Left_Y_negative_angle = Right_Y_negative_angle;
+							eye_selected = 5;
 							break;		
 						case 5:
 							Right_Y_negative_angle = Left_Y_negative_angle;
+							eye_selected = 4;
 							break;
 						case 6:
 							Left_Y_positive_angle = Right_Y_positive_angle;
+							eye_selected = 7;
 							break;
 						case 7:
 							Right_Y_positive_angle = Left_Y_positive_angle;
+							eye_selected = 6;
 							break;
 					}
 					break;
